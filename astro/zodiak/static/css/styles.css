@@ -1,0 +1,76 @@
+.ch-container{
+  text-align: center;
+}
+.ch-container h4{
+  color: white;  
+}
+
+  .ignioInformer { 
+    width: 500px; 
+    border: 1px solid silver; 
+    margin: 10px 0px 10px 0px; 
+    padding: 5px 10px 5px 10px; 
+    font-family: Tahoma, Verdana, Geneva, Helvetica; 
+    color: silver; 
+    background: #000000; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ignioInformer a { 
+    color: #FFCC99; 
+    text-decoration: none; 
+   }
+
+  .ignioInformerTitle { 
+    padding: 5px; 
+    text-align: center; 
+    
+  }
+
+  .ignioInformerTitle h2 {
+    font-size: 14px; 
+    display: inline;
+  }
+
+  .ignioInformerSelects { 
+    text-align: center; 
+    padding: 10px 0 5px 0; 
+    background: #333333; 
+  }
+
+  .ignioInformerSelectSign { 
+    font-family: Arial; 
+    font-size: 12px; 
+    color: silver; 
+    font-weight: bold; 
+    margin: 0 5px 0 0; 
+    background: #333333; 
+    display: none;
+  }
+
+  .ignioInformerSelectDate {
+    font-family: Arial; 
+    font-size: 12px; 
+    color: silver; 
+    font-weight: normal;
+    margin: 0 0 0 5px; 
+    background: #333333;
+  }
+
+  .ignioInformerText { 
+    padding: 0px 5px 5px 5px; 
+    background: #333333; 
+  }
+
+  .ignioInformerText p {
+    padding: 5px 0; 
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .ignioInformerTail { 
+    padding: 5px; 
+    font-size: 12px;
+    text-align: center;
+  }

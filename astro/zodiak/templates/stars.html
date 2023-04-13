@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+{% block content %}
+    <table class="table table-dark table-striped">
+        <tr>
+            <th>Русское название</th>
+            <th>Латинское название</th>
+            <th>Сокращенное название</th>
+            <th>Площадь</th>            
+        </tr>
+        {% for item in stars %}
+            <tr >
+                <td>{{item.rusName}}</td>
+                <td>{{item.latName}}</td>
+                <td>{{item.sokr}}</td>
+                <td>{{item.square}}</td>
+            </tr>
+        {% endfor %}
+    </table>    
+{% endblock content %}
